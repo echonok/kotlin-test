@@ -1,4 +1,9 @@
-
+class NibirunianClass () {
+    public var namePlate: String = ""
+    public fun createNamePlate (name: String): void {
+        namePlate = "Live long and prosper, $name";
+    }
+}
 
 fun main(args: Array<String>) {
     val str: String? = readLine();
